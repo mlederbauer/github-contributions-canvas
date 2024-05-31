@@ -149,5 +149,15 @@ export const themes = {
     grade2: "#cb4b16",
     grade1: "#b58900",
     grade0: "#eee8d5"
+  },
+  BSC: {
+    background: "#fdf6e3",
+    text: "#586e75",
+    meta: "#93a1a1",
+    grade4: "#6c71c4",
+    grade3: "#dc322f",
+    grade2: "#cb4b16",
+    grade1: "#b58900",
+    grade0: "#eee8d5"    
   }
 };

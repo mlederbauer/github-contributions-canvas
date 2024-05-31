@@ -40,6 +40,7 @@ Currently the available themes are:
 - `YlGnBu`
 - `solarizedDark`
 - `solarizedLight`
+- `BSC`
 
 ## Data Format
 
