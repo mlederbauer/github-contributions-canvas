@@ -258,21 +258,21 @@ function drawMetaData(
     themeGrades -= 1;
   }
 
-  ctx.fillStyle = theme.text;
-  ctx.textBaseline = "hanging";
-  ctx.font = `20px '${fontFace}'`;
-  ctx.fillText(`@${username} on GitHub`, canvasMargin, canvasMargin);
+  // ctx.fillStyle = theme.text;
+  // ctx.textBaseline = "hanging";
+  // ctx.font = `20px '${fontFace}'`;
+  // ctx.fillText(`@${username} on GitHub`, canvasMargin, canvasMargin);
 
-  let totalContributions = 0;
-  for (const year of data.years) {
-    totalContributions += year.total;
-  }
-  ctx.font = `10px '${fontFace}'`;
-  ctx.fillText(
-    `Total Contributions: ${totalContributions}`,
-    canvasMargin,
-    canvasMargin + 30
-  );
+  // let totalContributions = 0;
+  // for (const year of data.years) {
+  //   totalContributions += year.total;
+  // }
+  // ctx.font = `10px '${fontFace}'`;
+  // ctx.fillText(
+  //   `Total Contributions: ${totalContributions}`,
+  //   canvasMargin,
+  //   canvasMargin + 30
+  // );
 
   ctx.beginPath();
   ctx.moveTo(canvasMargin, 55 + 10);
